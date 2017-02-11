@@ -8,7 +8,7 @@ package 'apache2' do
 	action :install
 end
 
-service 'apache' do
+service 'apache2' do
 	service_name 'httpd'
 	action[:start, :enable]
 end
